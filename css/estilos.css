@@ -1,0 +1,11 @@
+/* Hoja de estilos compartida por todas las páginas */
+:root{--navy:#102338;--mint:#57d8bb;--blue:#486cba;--muted:#607185;--bg:#f4f7fb}
+body{background:var(--bg);color:var(--navy);font-family:system-ui,-apple-system,"Segoe UI",sans-serif}
+.navbar{background:#102338!important}.navbar-brand{font-weight:800;letter-spacing:.5px}.navbar .nav-link{color:#dce6f1!important}.navbar .nav-link.active,.navbar .nav-link:hover{color:#69e3cc!important}
+.hero{background:linear-gradient(115deg,#102338,#294f73);color:#fff;border-radius:24px;padding:2.5rem}
+.hero small{letter-spacing:2px;color:#77ead4}.portrait{width:220px;max-width:100%;border:7px solid #fff;border-radius:28px;box-shadow:0 16px 36px #0002}
+.section-label{font-size:.8rem;color:#408d93;letter-spacing:2px;font-weight:800;text-transform:uppercase}.card{border:0;border-radius:18px;box-shadow:0 6px 24px #1229400c}.card:hover{box-shadow:0 9px 28px #12294016}
+.btn-primary{background:#315eaa;border-color:#315eaa}.btn-primary:hover{background:#24477f;border-color:#24477f}.btn-success{background:#16856b;border-color:#16856b}.badge-soft{background:#ddf6f0;color:#106957;padding:7px 10px;border-radius:20px;font-size:.85rem}
+.site-footer{color:#728299;border-top:1px solid #e0e7f0;padding:22px 0;margin-top:3rem}.timeline{border-left:3px solid #61cdbb;padding-left:1.5rem}.timeline-item{position:relative;margin-bottom:1.7rem}.timeline-item:before{content:"";position:absolute;left:-2.05rem;top:5px;width:14px;height:14px;border-radius:50%;background:#315eaa;border:3px solid white}
+.dark-card{background:#102338;color:white}.project-tag{font-size:.75rem;color:#16856b;font-weight:750;text-transform:uppercase}.demo-box{border:1px dashed #9db5c9;background:#f7fbfe;padding:1.5rem;border-radius:14px}.note{font-size:.9rem;color:#697a8e}.table>:not(caption)>*>*{padding:.9rem}.feature-list li{margin:.6rem 0}.highlighted{border:3px solid #57d8bb!important;background:#e5fbf5!important;transform:translateY(-2px)}.extra-item{animation:appear .3s ease}@keyframes appear{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:translateY(0)}}
+@media(max-width:767px){.hero{padding:1.5rem}.portrait{width:170px}}
